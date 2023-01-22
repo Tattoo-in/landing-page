@@ -1,0 +1,31 @@
+
+
+.nav{
+    position: fixed;
+    top: 0;
+    left: 0;
+
+    width: 100%;
+    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem 0;
+
+
+    color: white;
+}
+
+.nav-menu-item{
+    display: inline-block;
+    list-style: none;
+
+    margin: 0 2rem;
+}
+
+.nav-menu-item-link{
+    color: white;
+    text-decoration: none;
+    
+}
