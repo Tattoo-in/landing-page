@@ -1,0 +1,29 @@
+
+.about-us{
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+
+
+    min-height: 100vh;
+}
+
+.about-us-heading-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    padding: 2rem;
+}
+
+.about-us-content-container{
+    display: flex;
+    flex-direction: row;
+}
+
+.about-us-text-container, .about-us-image-container{
+    flex: 1;
+}
